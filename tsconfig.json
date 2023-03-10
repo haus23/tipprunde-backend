@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // CommonJS support
+    "esModuleInterop": true,
+
+    // Best practices
+    "strict": true
+  },
+  "include": ["src"]
+}

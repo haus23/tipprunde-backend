@@ -2,5 +2,18 @@
   "name": "@haus23/tipprunde-backend",
   "version": "0.0.0",
   "description": "Backend Server der Haus23 Tipprunde",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/main.mts"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.0",
+    "changelogen": "github:lean-stack/changelogen",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  }
 }
