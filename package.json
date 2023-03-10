@@ -7,6 +7,7 @@
     "dev": "tsx watch src/main.mts"
   },
   "dependencies": {
+    "@haus23/tipprunde-types": "^0.1.0",
     "@sinclair/typebox": "^0.25.24",
     "express": "^4.18.2"
   },

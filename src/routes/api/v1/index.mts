@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { Type } from '@sinclair/typebox';
 import { Value } from '@sinclair/typebox/value';
 
-import { ChampionshipId } from '../../../lib/types/championship.mjs';
+import { ChampionshipId } from '@haus23/tipprunde-types';
 
 export const apiV1 = Router()
   .get('/masterdata', (req, res) => {
