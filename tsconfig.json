@@ -7,7 +7,10 @@
     "esModuleInterop": true,
 
     // Best practices
-    "strict": true
+    "strict": true,
+
+    // DX
+    "baseUrl": "src"
   },
   "include": ["src"]
 }

@@ -1,8 +1,7 @@
 import { Router } from 'express';
 
 import { Championship } from '@haus23/tipprunde-types';
-import { db } from '../../../lib/firebase/db.mjs';
-import { modelConverter } from '../../../lib/firebase/model-converter.mjs';
+import { db, modelConverter } from 'lib/firebase/index.mjs';
 
 export const apiV2 = Router().get('/championships', async (req, res) => {
   const snapshot = await db
