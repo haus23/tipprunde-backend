@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.2.1
+
+[compare changes](https://github.com/haus23/tipprunde-backend/compare/v0.2.0...v0.2.1)
+
+
+### 🚀 Enhancements
+
+  - Add helper to get a firestore collection ([f45c619](https://github.com/haus23/tipprunde-backend/commit/f45c619))
+  - Get player entities ([5eb8bdb](https://github.com/haus23/tipprunde-backend/commit/5eb8bdb))
+
+### 🩹 Fixes
+
+  - Add repository to automate releasing ([9ff30ae](https://github.com/haus23/tipprunde-backend/commit/9ff30ae))
+
+### 💅 Refactors
+
+  - Align collection getting ([a96a68d](https://github.com/haus23/tipprunde-backend/commit/a96a68d))
+
+### 🏡 Chore
+
+  - Update deps ([3159fd8](https://github.com/haus23/tipprunde-backend/commit/3159fd8))
+
 ## v0.2.0
 
 [compare changes](https://undefined/undefined/compare/v0.1.0...v0.2.0)
