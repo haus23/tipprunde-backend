@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 import { Championship, Player } from '@haus23/tipprunde-types';
-import { collection, db, modelConverter } from 'lib/firebase/index.mjs';
+import { collection } from 'lib/firebase';
 
 export const apiV2 = Router()
   .get('/championships', async (req, res) => {

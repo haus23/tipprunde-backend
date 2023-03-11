@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     // Target
-    "module": "NodeNext",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
 
     // CommonJS support
     "esModuleInterop": true,

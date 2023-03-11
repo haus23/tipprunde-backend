@@ -1,5 +1,5 @@
 import { cert, getApps, initializeApp } from 'firebase-admin/app';
-import { config } from '../config.mjs';
+import { config } from '../config';
 
 const apps = getApps();
 
