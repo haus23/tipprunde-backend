@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v0.3.0
+
+[compare changes](https://github.com/haus23/tipprunde-backend/compare/v0.2.1...v0.3.0)
+
+
+### 🚀 Enhancements
+
+  - Add a cache layer ([1f7aa58](https://github.com/haus23/tipprunde-backend/commit/1f7aa58))
+
+### 💅 Refactors
+
+  - Caching firebase data ([cb41e6a](https://github.com/haus23/tipprunde-backend/commit/cb41e6a))
+
+### 🏡 Chore
+
+  - **release:** V0.2.1 ([5510672](https://github.com/haus23/tipprunde-backend/commit/5510672))
+  - Simplify project setup ([975799e](https://github.com/haus23/tipprunde-backend/commit/975799e))
+
 ## v0.2.1
 
 [compare changes](https://github.com/haus23/tipprunde-backend/compare/v0.2.0...v0.2.1)
