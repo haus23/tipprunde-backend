@@ -3,3 +3,6 @@ node_modules/
 
 # Sensible data
 .env
+
+# Cache
+.cache/
