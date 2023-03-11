@@ -5,16 +5,10 @@ import { collection, db, modelConverter } from 'lib/firebase/index.mjs';
 
 export const apiV2 = Router()
   .get('/championships', async (req, res) => {
-    const snapshot = await db
-      .collection('championships')
-      .where('published', '==', true)
-      .orderBy('nr', 'desc')
-      .withConverter(modelConverter<Championship>())
-      .get();
-
-    const championships = snapshot.docs.map((doc) => doc.data());
-    res.json(championships);
+    const championships = await collection<Championship>('championships');
+    res.json(championships.filter((c) => c.published).sort((a, b) => b.nr - a.nr));
   })
   .get('/players', async (req, res) => {
-    res.json(await collection<Player>('/players'));
+    const players = await collection<Player>('/players');
+    res.json(players);
   });
