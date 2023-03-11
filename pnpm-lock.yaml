@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@haus23/tipprunde-types': ^0.1.0
+  '@haus23/tipprunde-types': ^0.2.1
   '@sinclair/typebox': ^0.25.24
   '@types/express': ^4.17.17
   '@types/node': ^18.15.0
@@ -13,7 +13,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  '@haus23/tipprunde-types': 0.1.0
+  '@haus23/tipprunde-types': 0.2.1
   '@sinclair/typebox': 0.25.24
   dotenv: 16.0.3
   express: 4.18.2
@@ -427,8 +427,8 @@ packages:
     dev: false
     optional: true
 
-  /@haus23/tipprunde-types/0.1.0:
-    resolution: {integrity: sha512-xhImvK7H4kp0tnxMDXuSaettzzDoEy5TUFXug7IB4/qaX9Y5ZFa2lCgIO2ozaM1U0K6ZuG3BAT6QlYYXKhZXNA==}
+  /@haus23/tipprunde-types/0.2.1:
+    resolution: {integrity: sha512-lO6L2m10vC7Egdp+MzqnWjXeXsd15KUFDgMBiDuHH94zrTsEL4ZQEpmI65It0n79DkKkdLxQ4jP9zZXVYl7wXA==}
     dependencies:
       '@sinclair/typebox': 0.25.24
     dev: false
@@ -747,7 +747,7 @@ packages:
       dotenv: 16.0.3
       giget: 1.1.2
       jiti: 1.17.2
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
       pkg-types: 1.0.2
       rc9: 2.0.1
@@ -1820,8 +1820,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  /mlly/1.1.1:
-    resolution: {integrity: sha512-Jnlh4W/aI4GySPo6+DyTN17Q75KKbLTyFK8BrGhjNP4rxuUjbRWhE6gHg3bs33URWAF44FRm7gdQA348i3XxRw==}
+  /mlly/1.2.0:
+    resolution: {integrity: sha512-+c7A3CV0KGdKcylsI6khWyts/CYrGTrRVo4R/I7u/cUsy0Conxa6LUhiEzVKIw14lc2L5aiO4+SeVe4TeGRKww==}
     dependencies:
       acorn: 8.8.2
       pathe: 1.1.0
@@ -1981,7 +1981,7 @@ packages:
     resolution: {integrity: sha512-hM58GKXOcj8WTqUXnsQyJYXdeAPbythQgEF3nTcEo+nkD49chjQ9IKm/QJy9xf6JakXptz86h7ecP2024rrLaQ==}
     dependencies:
       jsonc-parser: 3.2.0
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
     dev: true
 

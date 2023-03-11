@@ -11,7 +11,7 @@
     "dev": "tsx watch src/main.mts"
   },
   "dependencies": {
-    "@haus23/tipprunde-types": "^0.1.0",
+    "@haus23/tipprunde-types": "^0.2.1",
     "@sinclair/typebox": "^0.25.24",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
