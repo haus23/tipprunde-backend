@@ -1,10 +1,8 @@
 import { fileURLToPath } from 'node:url';
-import dotenv from 'dotenv';
+
 import express from 'express';
 import { apiV1 } from './routes/api/v1/index.mjs';
 import { apiV2 } from './routes/api/v2/index.mjs';
-
-dotenv.config();
 
 const app = express();
 
