@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "description": "Backend Server der Haus23 Tipprunde",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haus23/tipprunde-backend.git"
+  },
   "scripts": {
     "dev": "tsx watch src/main.mts"
   },
